@@ -1,9 +1,22 @@
-function seed() {}
+function seed() {
+  const arguments = {first:"a",second:"b",third:"c"}
+}
 
-function same([x, y], [j, k]) {}
+seed(arguments)
+
+
+function same([h,j],[k,l]) {
+  returns [h,j] == [k,l]
+}
+same([-Infinity<h<Infinity,-Infinity<j<Infinity],[-Infinity<k<Infinity,-Infinity<l<Infinity])
 
 // The game state to search for `cell` is passed as the `this` value of the function.
-function contains(cell) {}
+const cell = [[h,j],[k,l]];
+function contains([param1,param2],[param3,param4]) {
+    //
+  }
+
+contains.apply(this,cell);
 
 const printCell = (cell, state) => {};
 
